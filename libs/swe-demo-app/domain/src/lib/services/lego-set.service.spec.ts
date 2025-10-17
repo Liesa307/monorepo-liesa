@@ -1,4 +1,5 @@
 import { TestBed } from '@angular/core/testing';
+import { provideHttpClient } from '@angular/common/http';
 
 import { LegoSetService } from './lego-set.service';
 
@@ -6,7 +7,9 @@ describe('LegoSetService', () => {
   let service: LegoSetService;
 
   beforeEach(() => {
-    TestBed.configureTestingModule({});
+    TestBed.configureTestingModule({
+      providers: [provideHttpClient()],
+    });
     service = TestBed.inject(LegoSetService);
   });
 
