@@ -1,2 +1,3 @@
-export * from './lib/swe-demo-app-domain/swe-demo-app-domain';
+export * from './lib/dtos/lego-set';
+export * from './lib/services/lego-set.service';
 
