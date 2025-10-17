@@ -48,7 +48,8 @@
     },
     "serve": {
       "continuous": true,
-      "executor": "@angular/build:dev-server",
+      "executor": "@ngx-env/builder:dev-server",
+      
       "configurations": {
         "production": {
           "buildTarget": "swe-demo-app:build:production"
@@ -60,7 +61,7 @@
       "defaultConfiguration": "development"
     },
     "extract-i18n": {
-      "executor": "@angular/build:extract-i18n",
+      "executor": "@ngx-env/builder:extract-i18n",
       "options": {
         "buildTarget": "swe-demo-app:build"
       }

@@ -10,4 +10,8 @@ import { NavbarContainer } from "@monorepo-liesa/swe-demo-app-feature";
 })
 export class App {
   protected title = 'swe-demo-app';
+  // constructor() {
+  //   console.log(import.meta.env["NG_APP_TEST_VALUE"]);
+  // }
+
 }

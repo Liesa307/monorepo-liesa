@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "swe-demo-api", "apps\swe-demo-api\swe-demo-api.csproj", "{438A436C-B9DF-47A3-9BEE-F8AE7925D44A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SweDemoBackend.Application", "libs\swe-demo-backend\SweDemoBackend.Application\SweDemoBackend.Application.csproj", "{6F08366E-E852-42CA-815E-25F44AAA7AE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SweDemoBackend.Contracts", "libs\swe-demo-backend\SweDemoBackend.Contracts\SweDemoBackend.Contracts.csproj", "{65826AD8-19BD-4A00-B25E-90948F774307}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SweDemoBackend.Domain", "libs\swe-demo-backend\SweDemoBackend.Domain\SweDemoBackend.Domain.csproj", "{58AA40C6-FB65-4510-9C12-1161EA38E42A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SweDemoBackend.Infrastructure", "libs\swe-demo-backend\SweDemoBackend.Infrastructure\SweDemoBackend.Infrastructure.csproj", "{3DCA5F30-6C36-45A9-B236-8E1538E25A04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{438A436C-B9DF-47A3-9BEE-F8AE7925D44A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{438A436C-B9DF-47A3-9BEE-F8AE7925D44A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{438A436C-B9DF-47A3-9BEE-F8AE7925D44A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{438A436C-B9DF-47A3-9BEE-F8AE7925D44A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F08366E-E852-42CA-815E-25F44AAA7AE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F08366E-E852-42CA-815E-25F44AAA7AE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F08366E-E852-42CA-815E-25F44AAA7AE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F08366E-E852-42CA-815E-25F44AAA7AE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65826AD8-19BD-4A00-B25E-90948F774307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65826AD8-19BD-4A00-B25E-90948F774307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65826AD8-19BD-4A00-B25E-90948F774307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65826AD8-19BD-4A00-B25E-90948F774307}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58AA40C6-FB65-4510-9C12-1161EA38E42A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58AA40C6-FB65-4510-9C12-1161EA38E42A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58AA40C6-FB65-4510-9C12-1161EA38E42A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58AA40C6-FB65-4510-9C12-1161EA38E42A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DCA5F30-6C36-45A9-B236-8E1538E25A04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DCA5F30-6C36-45A9-B236-8E1538E25A04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DCA5F30-6C36-45A9-B236-8E1538E25A04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DCA5F30-6C36-45A9-B236-8E1538E25A04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
